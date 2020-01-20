@@ -1,0 +1,31 @@
+.footer-section {
+    background: white;
+    text-align: left;
+    padding: 60px 0;
+}
+
+.social-media-links {
+    list-style: none;
+
+    li {
+        display: inline-block;
+    }
+
+    a {
+        text-decoration: none;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        font-size: 35px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    .footer-section {
+        text-align: center;
+    }
+}
